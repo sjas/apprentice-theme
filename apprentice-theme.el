@@ -23,8 +23,7 @@
 ;; Thanks!
 
 ;;; Code:
-
-(deftheme apprentice)
+(deftheme apprentice "Apprentice")
 
 (let ((class '((class color) (min-colors 89)))
       ;; fg1 and fg2 switched
@@ -53,7 +52,7 @@
       (var     "#5fafaf")
       (warning "#af5f5f")
 
-      (cursorline "#1f5f5f")
+      (cursorline "#4f7f8f")
 
       (rainbow-1 "#ffffff")
       (rainbow-2 "#8fadd7")
@@ -435,9 +434,9 @@
 
 
 ;;;###autoload
-(when load-file-name
-  (add-to-list 'custom-theme-load-path
-               (file-name-as-directory (file-name-directory load-file-name))))
+;(when load-file-name
+;  (add-to-list 'custom-theme-load-path
+;               (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'apprentice)
 
