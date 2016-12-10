@@ -53,7 +53,8 @@
       (var     "#5fafaf")
       (warning "#af5f5f")
 
-      (cursorline "#4f7f8f")
+      ;; (cursorline "#4f7f8f")
+      (cursorline "#000000")
 
       (rainbow-1 "#ffffff")
       (rainbow-2 "#8fadd7")
